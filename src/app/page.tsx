@@ -75,7 +75,7 @@ export default function Home() {
             <div className="z-10 mb-7 -mt-2">
               <Image
                 src="/keluhkesah.png"
-                alt="Keluh Kesah Logo"
+                alt="Keluh Kesah Warung Joki Logo"
                 width={400}
                 height={400}
                 className="w-80 sm:w-96"
@@ -85,10 +85,10 @@ export default function Home() {
           ) : (
             <div>
               <h1 className="relative z-10 text-4xl font-black text-center mb-4">
-                Keluh Kesah
+                Keluh Kesah Warung Joki
               </h1>
               <p className="relative z-10 text-muted-foreground text-center mb-6">
-                Silahkan berkeluh kesah di sini.
+                Silahkan berkeluh kesah di Warung Joki ini.
               </p>
             </div>
           )}

@@ -17,9 +17,9 @@ interface NavbarProps {
         <nav className="fixed top-0 right-0 w-full z-50 border-b-4 border-border bg-bg">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {isWibuMode ? (
-          <Image src="/keluhkesah.png" alt="Keluh Kesah Logo" width={120} height={120} unoptimized />
+          <Image src="/keluhkesah.png" alt="Keluh Kesah Warung Joki Logo" width={120} height={120} unoptimized />
         ) : (
-          <div className="font-bold text-lg">Keluh Kesah</div>
+          <div className="font-bold text-lg">Keluh Kesah Warung Joki</div>
         )}
           <div className="flex items-center gap-4">
           
@@ -28,9 +28,9 @@ interface NavbarProps {
               <Button variant="neutral">Tentang</Button>
             </DialogTrigger>
             <DialogContent>
-                <DialogTitle>Tentang Keluh Kesah</DialogTitle>
+                <DialogTitle>Tentang Keluh Kesah Warung Joki</DialogTitle>
                 <DialogDescription>
-                  Keluh Kesah adalah adalah tempat bagi siapa saja untuk mencurahkan isi hati dan berbagi pengalaman. Platform ini dibuat dengan tujuan untuk mengurangi angka stress di Indonesia.
+                  Keluh Kesah Warung Joki adalah tempat bagi siapa saja untuk mencurahkan isi hati dan berbagi pengalaman. Platform ini dibuat dengan tujuan untuk mengurangi angka stress di Indonesia.
                 </DialogDescription>
                 <div className="flex items-center gap-2">
                 <Switch id="wibu-mode" className="z-10" checked={isWibuMode} onCheckedChange={(checked) => setIsWibuMode(checked)}/>
@@ -39,11 +39,11 @@ interface NavbarProps {
           </Label>
                 </div>
                 <DialogDescription>
-                  Dibuat oleh <Link href="https://ifal.me" className="text-main hover:text-black">Ifal Fahri A</Link>
+                  Dibuat oleh <Link href="https://ifal.me" className="text-main hover:text-black">Warung Joki</Link>
                 </DialogDescription>
             </DialogContent>
           </Dialog>
-            <Link href="https://github.com/ifalfahri/keluhkesah"><Button variant="neutral" className="w-10 h-10"><Github /></Button></Link>
+            <Link href="https://youtu.be/dQw4w9WgXcQ?si=vftJkXn4arzIE0z-"><Button variant="neutral" className="w-10 h-10"><Github /></Button></Link>
             <ModeToggle />
             
           </div>

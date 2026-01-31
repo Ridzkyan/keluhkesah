@@ -12,9 +12,9 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Keluh Kesah",
-  description: "Keluh Kesah adalah adalah tempat bagi siapa saja untuk mencurahkan isi hati dan berbagi pengalaman. Platform ini dibuat dengan tujuan untuk mengurangi angka stress di Indonesia.",
-  keywords: "keluh kesah, curhat, stress, menfess, fess, indonesia, keluhan, pengalaman, curhatan",
+  title: "Keluh Kesah Warung Joki",
+  description: "Keluh Kesah Warung Joki adalah tempat bagi siapa saja untuk mencurahkan isi hati dan berbagi pengalaman. Platform ini dibuat dengan tujuan untuk mengurangi angka stress di Indonesia.",
+  keywords: "keluh kesah warung joki, curhat, stress, menfess, fess, indonesia, keluhan, pengalaman, curhatan",
 };
 
 export default function RootLayout({
